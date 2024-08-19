@@ -12,3 +12,14 @@
     padding: auto;
     margin: auto;
 }
+
+.active {
+    color: orange;
+    padding: auto;
+    margin: auto;
+}
+
+a:visited { text-decoration: none; }
+a:link { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
