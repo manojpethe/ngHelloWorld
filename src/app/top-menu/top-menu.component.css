@@ -1,0 +1,14 @@
+.topmenu {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    display: flex;
+}
+
+.topmenu-item {
+    color: white;
+    padding: auto;
+    margin: auto;
+}

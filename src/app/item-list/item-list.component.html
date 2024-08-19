@@ -1,0 +1,13 @@
+<div style="width: 50%;" >
+<h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Item List</h2>
+<div style="padding:5px">
+    <input style="border: 0.5px; border-color: darkgray; border-style: solid; font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;" type="text" [(ngModel)]="myInput">
+    &nbsp;
+    <button style="font-size: larger;" (click)="handleAdd()" >Add Item</button>
+</div>
+<div>
+    <div *ngFor="let oneItem of myItemArray">
+        <item [oneItem]=oneItem ></item>
+    </div>
+</div>
+</div>
