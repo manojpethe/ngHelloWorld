@@ -8,10 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { ItemComponent } from './item-list/item/item.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { Todo2Component } from './todo2/todo2.component';
+import { HomeComponent } from './home/home.component';
+import { Todo3Component } from './todo3/todo3.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: ItemListComponent},
-  { path: 'todo2', component: Todo2Component},
+  { path: 'home', component: HomeComponent},
+  { path: 'todo2', component: ItemListComponent},
+  { path: 'todo3', component: Todo3Component},
   { path: '**', redirectTo: '/home'},
 ];
 
@@ -21,7 +24,9 @@ const appRoutes: Routes = [
     ItemListComponent,
     ItemComponent,
     TopMenuComponent,
-    Todo2Component
+    Todo2Component,
+    HomeComponent,
+    Todo3Component
   ],
   imports: [
     BrowserModule,
