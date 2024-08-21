@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ItemListComponent {
 handleAdd() {
-  console.log(this.myInput);
+  // console.log(this.myInput);
   this.myItemArray.push(this.myInput);
   this.myInput = "";
 }

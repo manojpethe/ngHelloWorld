@@ -10,6 +10,7 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
 import { Todo2Component } from './todo2/todo2.component';
 import { HomeComponent } from './home/home.component';
 import { Todo3Component } from './todo3/todo3.component';
+import { ShowTodoItemComponent } from './todo3/show-todo-item/show-todo-item.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -26,7 +27,8 @@ const appRoutes: Routes = [
     TopMenuComponent,
     Todo2Component,
     HomeComponent,
-    Todo3Component
+    Todo3Component,
+    ShowTodoItemComponent
   ],
   imports: [
     BrowserModule,

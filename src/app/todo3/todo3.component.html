@@ -1,1 +1,13 @@
-<p>todo3 works!</p>
+<div style="display: flex; justify-content: center; height: 20vh; padding: 20px;">
+    <div class="main-panel" >
+        <button (click)="handleAdd()" style="color: brown; background-color: aliceblue; border-radius: 10px; font-family:'Courier New', Courier, monospace;font-size: larger; ">Add Item</button>
+    </div>
+</div>
+<div style="display: flex; justify-content: center; height: 60vh; padding: 20px;">
+<div class="main-panel" >
+    <p>List of Todo Items</p>
+    <div *ngFor="let todoItem of todoData">
+        <show-todo-item [todoItem]=todoItem ></show-todo-item>
+    </div>
+</div>
+</div>
